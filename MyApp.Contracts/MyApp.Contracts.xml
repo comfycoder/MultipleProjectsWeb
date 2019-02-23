@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyApp.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:MyApp.Contracts.CustomerDto">
+            <summary>
+            Customer
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.CustomerId">
+            <summary>
+            ID of the Customer record.
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.LastName">
+            <summary>
+             Last Name
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.EmailAddress">
+            <summary>
+            Email Address
+            </summary>
+        </member>
+        <member name="P:MyApp.Contracts.CustomerDto.Phone">
+            <summary>
+            Phone Number
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyApp.Web</name>
+    </assembly>
+    <members>
+        <member name="T:MyApp.Web.Controllers.CustomersController">
+            <summary>
+            Customer API
+            </summary>
+        </member>
+        <member name="M:MyApp.Web.Controllers.CustomersController.GetCustomers">
+            <summary>
+            Get Customers
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
