@@ -14,8 +14,4 @@
     <ProjectReference Include="..\MyApp.Data\MyApp.Data.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <IsTestProject>false</IsTestProject>
-  </PropertyGroup>
-
 </Project>
