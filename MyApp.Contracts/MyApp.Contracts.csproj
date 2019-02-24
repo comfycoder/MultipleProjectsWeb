@@ -18,4 +18,8 @@
     </Reference>
   </ItemGroup>
 
+  <PropertyGroup>
+    <IsTestProject>false</IsTestProject>
+  </PropertyGroup>
+
 </Project>
