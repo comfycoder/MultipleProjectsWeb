@@ -14,7 +14,7 @@ COPY . .
 WORKDIR "/src/MyApp.Web"
 RUN dotnet build "MyApp.Web.csproj" -c Release -o /app
 
-RUN dotnet test "../MyApp.Tests/MyApp.Tests.csproj" -c Release --no-build --no-restore
+RUN dotnet test "../MyApp.Tests/MyApp.Tests.csproj" -c Release 
 
 FROM build AS publish
 RUN dotnet publish "MyApp.Web.csproj" -c Release -o /app
